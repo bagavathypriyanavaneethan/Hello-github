@@ -37,3 +37,5 @@ acc=model.score(xtest2d,ytest2d)
 
 ypred=model.predict(xtest2d)
 a=accuracy_score(ytest2d,ypred)
+
+print('Accuracy of model',a)
