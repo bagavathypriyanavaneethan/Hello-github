@@ -4,7 +4,7 @@ Created on Sun Jan 12 20:06:02 2020
 
 @author: Bagavathi Priya
 """
-
+#IRIS FLOWER RECOGNITION
 from sklearn import svm
 from sklearn import datasets
 iris=datasets.load_iris()
@@ -37,3 +37,6 @@ acc=model.score(xtest2d,ytest2d)
 
 ypred=model.predict(xtest2d)
 a=accuracy_score(ytest2d,ypred)
+
+
+print('Accuracy of model',a)
